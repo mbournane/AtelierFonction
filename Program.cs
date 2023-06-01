@@ -12,12 +12,12 @@ class Program
 
         int[] intTab = {5,7,6,1,2,3,8,11,15,16,13,22};
 
-        Console.WriteLine("La somme: " + sumArrayInteger(intTab));
+        Console.WriteLine("La somme: " + SumArrayInteger(intTab));
 
-        displayValueArray(intTab);
+        DisplayArrayValues(intTab);
         Console.WriteLine("");
 
-        Console.WriteLine(" la moyen du tableau: " + averageArrayValue(intTab) );
+        Console.WriteLine(" la moyen du tableau: " + AverageArrayValues(intTab) );
         
     }
     public static int Add(int valueA, int valueB)
@@ -26,12 +26,12 @@ class Program
         return result;
     }
 
-    public static int sumArrayInteger(int[] entiers)
+    public static int SumArrayInteger(int[] entiers)
     {
-        return entiers.Sum();;
+        return entiers.Sum();
     }
 
-    public static void displayValueArray(int[] intTab)
+    public static void DisplayArrayValues(int[] intTab)
     {
         foreach (int i in intTab)
         {
@@ -40,7 +40,7 @@ class Program
         }
     }
 
-    public static float averageArrayValue(int[] intTab)
+    public static float AverageArrayValues(int[] intTab)
     {      
         return (float) intTab.Average(); ;
     }
