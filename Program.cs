@@ -28,7 +28,7 @@ class Program
 
     public static int sumArrayInteger(int[] entiers)
     {
-        return entiers.Sum();;
+        return entiers.Sum();
     }
 
     public static void displayValueArray(int[] intTab)
